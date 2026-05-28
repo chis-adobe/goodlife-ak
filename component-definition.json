@@ -1,0 +1,147 @@
+{
+  "groups": [
+    {
+      "title": "Hero",
+      "id": "hero",
+      "components": [
+        {
+          "title": "Hero",
+          "id": "hero",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block",
+                "template": {
+                  "name": "Hero",
+                  "model": "hero"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "title": "Programs",
+      "id": "programs",
+      "components": [
+        {
+          "title": "Amenity Showcase",
+          "id": "amenity-showcase",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block",
+                "template": {
+                  "name": "Amenity Showcase",
+                  "model": "amenity-showcase"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Feature Showcase",
+          "id": "feature-showcase",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block",
+                "template": {
+                  "name": "Feature Showcase",
+                  "model": "feature-showcase"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Feature Grid",
+          "id": "feature-grid",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block",
+                "template": {
+                  "name": "Feature Grid",
+                  "model": "feature-grid"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "title": "Membership",
+      "id": "membership",
+      "components": [
+        {
+          "title": "Pricing Card",
+          "id": "pricing-card",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block",
+                "template": {
+                  "name": "Pricing Card",
+                  "model": "pricing-card"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Club Selector",
+          "id": "club-selector",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block",
+                "template": {
+                  "name": "Club Selector",
+                  "model": "club-selector"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "title": "Layout",
+      "id": "layout",
+      "components": [
+        {
+          "title": "Columns",
+          "id": "columns",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block",
+                "template": {
+                  "name": "Columns",
+                  "model": "columns"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Section",
+          "id": "section",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/section",
+                "template": {
+                  "model": "section"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

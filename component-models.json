@@ -1,0 +1,344 @@
+{
+  "models": [
+    {
+      "id": "section",
+      "fields": [
+        {
+          "component": "text",
+          "name": "style",
+          "label": "Section Style",
+          "description": "Visual style variant for the section background",
+          "valueType": "string"
+        }
+      ]
+    },
+    {
+      "id": "hero",
+      "fields": [
+        {
+          "component": "text",
+          "name": "eyebrow",
+          "label": "Eyebrow Text",
+          "description": "Small text above the main heading (e.g., 'Memberships')",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "name": "heading",
+          "label": "Heading",
+          "description": "Main hero heading text",
+          "valueType": "string"
+        },
+        {
+          "component": "richtext",
+          "name": "description",
+          "label": "Description",
+          "description": "Body text below the heading",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "name": "ctaLabel",
+          "label": "CTA Button Label",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "name": "ctaLink",
+          "label": "CTA Button Link",
+          "valueType": "string"
+        },
+        {
+          "component": "reference",
+          "name": "backgroundImage",
+          "label": "Background Image",
+          "description": "Optional background image from DAM",
+          "valueType": "string",
+          "multi": false
+        },
+        {
+          "component": "select",
+          "name": "classes",
+          "label": "Hero Variant",
+          "description": "Visual style variant",
+          "valueType": "string",
+          "options": [
+            { "name": "Default", "value": "" },
+            { "name": "Performance (dark centered)", "value": "performance" },
+            { "name": "Full Height", "value": "full" },
+            { "name": "Light", "value": "light" },
+            { "name": "Center", "value": "center" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "amenity-showcase",
+      "fields": [
+        {
+          "component": "reference",
+          "name": "image1",
+          "label": "Program Image 1",
+          "description": "First program image (e.g., REGYMEN)",
+          "valueType": "string"
+        },
+        {
+          "component": "reference",
+          "name": "image2",
+          "label": "Program Image 2",
+          "description": "Second program image (e.g., Craft Boxing)",
+          "valueType": "string"
+        },
+        {
+          "component": "reference",
+          "name": "image3",
+          "label": "Program Image 3",
+          "description": "Third program image (e.g., HYROX)",
+          "valueType": "string"
+        },
+        {
+          "component": "reference",
+          "name": "image4",
+          "label": "Program Image 4",
+          "description": "Fourth program image (e.g., Hot Yoga)",
+          "valueType": "string"
+        },
+        {
+          "component": "reference",
+          "name": "badge1",
+          "label": "Badge 1",
+          "description": "First program badge/logo from DAM",
+          "valueType": "string"
+        },
+        {
+          "component": "reference",
+          "name": "badge2",
+          "label": "Badge 2",
+          "description": "Second program badge/logo from DAM",
+          "valueType": "string"
+        },
+        {
+          "component": "reference",
+          "name": "badge3",
+          "label": "Badge 3",
+          "description": "Third program badge/logo from DAM",
+          "valueType": "string"
+        },
+        {
+          "component": "reference",
+          "name": "badge4",
+          "label": "Badge 4",
+          "description": "Fourth program badge/logo from DAM",
+          "valueType": "string"
+        }
+      ]
+    },
+    {
+      "id": "feature-showcase",
+      "fields": [
+        {
+          "component": "text",
+          "name": "programName",
+          "label": "Program Name",
+          "description": "Name of the training program (e.g., REGYMEN)",
+          "valueType": "string"
+        },
+        {
+          "component": "richtext",
+          "name": "programDescription",
+          "label": "Program Description",
+          "description": "Brief description of the program",
+          "valueType": "string"
+        },
+        {
+          "component": "reference",
+          "name": "programImage",
+          "label": "Program Image",
+          "description": "Main program image from DAM",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "name": "programImageAlt",
+          "label": "Image Alt Text",
+          "description": "Accessible description of the image",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "name": "accordion1Title",
+          "label": "Accordion Item 1 - Title",
+          "valueType": "string"
+        },
+        {
+          "component": "richtext",
+          "name": "accordion1Content",
+          "label": "Accordion Item 1 - Content",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "name": "accordion2Title",
+          "label": "Accordion Item 2 - Title",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "name": "accordion3Title",
+          "label": "Accordion Item 3 - Title",
+          "valueType": "string"
+        }
+      ]
+    },
+    {
+      "id": "feature-grid",
+      "fields": [
+        {
+          "component": "reference",
+          "name": "icon",
+          "label": "Feature Icon",
+          "description": "Icon image from DAM (SVG preferred)",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "name": "title",
+          "label": "Feature Title",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "name": "description",
+          "label": "Feature Description",
+          "valueType": "string"
+        }
+      ]
+    },
+    {
+      "id": "pricing-card",
+      "fields": [
+        {
+          "component": "text",
+          "name": "planName",
+          "label": "Plan Name",
+          "description": "Membership plan name (e.g., PERFORMANCE)",
+          "valueType": "string"
+        },
+        {
+          "component": "richtext",
+          "name": "planDescription",
+          "label": "Plan Description",
+          "description": "Short description of what's included",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "name": "price",
+          "label": "Price Amount",
+          "description": "Price value (e.g., $39.99)",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "name": "pricePeriod",
+          "label": "Price Period",
+          "description": "Billing period (e.g., '/ biweekly + $99 joining fee')",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "name": "ctaLabel",
+          "label": "CTA Button Label",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "name": "ctaLink",
+          "label": "CTA Button Link",
+          "valueType": "string"
+        },
+        {
+          "component": "richtext",
+          "name": "disclaimer",
+          "label": "Disclaimer Text",
+          "description": "Fine print below the CTA",
+          "valueType": "string"
+        }
+      ]
+    },
+    {
+      "id": "club-selector",
+      "fields": [
+        {
+          "component": "text",
+          "name": "heading",
+          "label": "Heading",
+          "description": "Section heading (e.g., 'Select your Home Club')",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "name": "description",
+          "label": "Description",
+          "description": "Instructional text below heading",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "name": "clubName",
+          "label": "Default Club Name",
+          "description": "Pre-selected club name",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "name": "clubDetails",
+          "label": "Club Details",
+          "description": "Club info (location, type, distance)",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "name": "changeLabel",
+          "label": "Change Club Label",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "name": "changeLink",
+          "label": "Change Club Link",
+          "valueType": "string"
+        }
+      ]
+    },
+    {
+      "id": "columns",
+      "fields": [
+        {
+          "component": "select",
+          "name": "classes",
+          "label": "Layout Variant",
+          "valueType": "string",
+          "options": [
+            { "name": "Default", "value": "" },
+            { "name": "Image Cover", "value": "image-cover" },
+            { "name": "Z-Pattern", "value": "z-pattern" }
+          ]
+        },
+        {
+          "component": "select",
+          "name": "gap",
+          "label": "Column Gap",
+          "valueType": "string",
+          "options": [
+            { "name": "None", "value": "" },
+            { "name": "Small", "value": "gap-s" },
+            { "name": "Medium", "value": "gap-m" },
+            { "name": "Large", "value": "gap-l" },
+            { "name": "Extra Large", "value": "gap-xl" }
+          ]
+        }
+      ]
+    }
+  ]
+}

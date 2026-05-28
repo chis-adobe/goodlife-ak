@@ -1,0 +1,37 @@
+{
+  "filters": [
+    {
+      "id": "section",
+      "components": [
+        "hero",
+        "amenity-showcase",
+        "feature-showcase",
+        "feature-grid",
+        "pricing-card",
+        "club-selector",
+        "columns"
+      ]
+    },
+    {
+      "id": "hero-section",
+      "components": [
+        "hero"
+      ]
+    },
+    {
+      "id": "membership-section",
+      "components": [
+        "pricing-card",
+        "club-selector"
+      ]
+    },
+    {
+      "id": "programs-section",
+      "components": [
+        "amenity-showcase",
+        "feature-showcase",
+        "feature-grid"
+      ]
+    }
+  ]
+}

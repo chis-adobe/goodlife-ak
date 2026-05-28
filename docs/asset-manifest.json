@@ -1,0 +1,169 @@
+{
+  "description": "Asset Manifest — Maps Figma exports to DAM paths and block field references",
+  "damRoot": "/content/dam/goodlife",
+  "assets": [
+    {
+      "figmaNode": "Regymen Image (Top Section)",
+      "figmaRef": "3f018b6ac31f148e1cb9de4f6e53d25cac4adbd5",
+      "exportName": "regymen-hero.jpg",
+      "damPath": "/content/dam/goodlife/programs/regymen-hero.jpg",
+      "usedInBlock": "amenity-showcase",
+      "fieldName": "image1",
+      "altText": "REGYMEN training session"
+    },
+    {
+      "figmaNode": "Craft Boxing Image (Top Section)",
+      "figmaRef": "00f4a7d068786c0f321e94721b582baf46d097c2",
+      "exportName": "craft-boxing-hero.jpg",
+      "damPath": "/content/dam/goodlife/programs/craft-boxing-hero.jpg",
+      "usedInBlock": "amenity-showcase",
+      "fieldName": "image2",
+      "altText": "Craft Boxing session"
+    },
+    {
+      "figmaNode": "Hyrox Image (Top Section)",
+      "figmaRef": "8575e8dbbe353606f666c4a66745209ed61a18bf",
+      "exportName": "hyrox-hero.jpg",
+      "damPath": "/content/dam/goodlife/programs/hyrox-hero.jpg",
+      "usedInBlock": "amenity-showcase",
+      "fieldName": "image3",
+      "altText": "HYROX training"
+    },
+    {
+      "figmaNode": "Hot Yoga Image (Top Section)",
+      "figmaRef": "8fd02deb38466d439a611803ecf54f9f38d1babf",
+      "exportName": "hot-yoga-hero.jpg",
+      "damPath": "/content/dam/goodlife/programs/hot-yoga-hero.jpg",
+      "usedInBlock": "amenity-showcase",
+      "fieldName": "image4",
+      "altText": "Hot Yoga class"
+    },
+    {
+      "figmaNode": "Regymen Image (Feature Section)",
+      "figmaRef": "e7b5a4bb28f8bc9e83bc24d4002e0730853846a3",
+      "exportName": "regymen-feature.jpg",
+      "damPath": "/content/dam/goodlife/programs/regymen-feature.jpg",
+      "usedInBlock": "feature-showcase",
+      "fieldName": "programImage",
+      "altText": "REGYMEN training in action"
+    },
+    {
+      "figmaNode": "Craft Boxing Image (Feature Section)",
+      "figmaRef": "b1dda940affbf4986ca6d7c59e8b29fe8bc9f6a2",
+      "exportName": "craft-boxing-feature.jpg",
+      "damPath": "/content/dam/goodlife/programs/craft-boxing-feature.jpg",
+      "usedInBlock": "feature-showcase",
+      "fieldName": "programImage",
+      "altText": "Craft Boxing training"
+    },
+    {
+      "figmaNode": "HYROX Image (Feature Section)",
+      "figmaRef": "0c55b52cefe41c903ea78f3a95180948f28e4d4d",
+      "exportName": "hyrox-feature.jpg",
+      "damPath": "/content/dam/goodlife/programs/hyrox-feature.jpg",
+      "usedInBlock": "feature-showcase",
+      "fieldName": "programImage",
+      "altText": "HYROX training"
+    },
+    {
+      "figmaNode": "Hot Yoga Image (Feature Section)",
+      "figmaRef": "e9b725bbbfaead9bb34a97ed4fc9d0a383d700a7",
+      "exportName": "hot-yoga-feature.jpg",
+      "damPath": "/content/dam/goodlife/programs/hot-yoga-feature.jpg",
+      "usedInBlock": "feature-showcase",
+      "fieldName": "programImage",
+      "altText": "Hot Yoga practice"
+    },
+    {
+      "figmaNode": "REGYMEN Badge Container",
+      "figmaRef": "vector-export",
+      "exportName": "regymen-badge.svg",
+      "damPath": "/content/dam/goodlife/badges/regymen-badge.svg",
+      "usedInBlock": "amenity-showcase",
+      "fieldName": "badge4",
+      "altText": "REGYMEN"
+    },
+    {
+      "figmaNode": "Craft Boxing Badge Container",
+      "figmaRef": "vector-export",
+      "exportName": "craft-boxing-badge.svg",
+      "damPath": "/content/dam/goodlife/badges/craft-boxing-badge.svg",
+      "usedInBlock": "amenity-showcase",
+      "fieldName": "badge3",
+      "altText": "Craft Boxing"
+    },
+    {
+      "figmaNode": "HYROX Badge Container",
+      "figmaRef": "vector-export",
+      "exportName": "hyrox-badge.svg",
+      "damPath": "/content/dam/goodlife/badges/hyrox-badge.svg",
+      "usedInBlock": "amenity-showcase",
+      "fieldName": "badge1",
+      "altText": "HYROX"
+    },
+    {
+      "figmaNode": "HOT Yoga Badge Container",
+      "figmaRef": "vector-export",
+      "exportName": "hot-yoga-badge.svg",
+      "damPath": "/content/dam/goodlife/badges/hot-yoga-badge.svg",
+      "usedInBlock": "amenity-showcase",
+      "fieldName": "badge2",
+      "altText": "Hot Yoga"
+    },
+    {
+      "figmaNode": "GoodLife Logo Container",
+      "figmaRef": "vector-export",
+      "exportName": "goodlife-logo.svg",
+      "damPath": "/content/dam/goodlife/logos/goodlife-logo.svg",
+      "usedInBlock": "header (fragment)",
+      "fieldName": "logo",
+      "altText": "GoodLife Fitness"
+    },
+    {
+      "figmaNode": "Icon/Bag",
+      "figmaRef": "vector-export",
+      "exportName": "bag.svg",
+      "damPath": "/content/dam/goodlife/icons/bag.svg",
+      "usedInBlock": "header (fragment)",
+      "fieldName": "cartIcon",
+      "altText": "Cart"
+    },
+    {
+      "figmaNode": "Feature - Gym Access Icon",
+      "figmaRef": "vector-export",
+      "exportName": "gym-access.svg",
+      "damPath": "/content/dam/goodlife/icons/gym-access.svg",
+      "usedInBlock": "feature-grid",
+      "fieldName": "icon",
+      "altText": "Gym access icon"
+    },
+    {
+      "figmaNode": "Feature - Group Fitness Icon",
+      "figmaRef": "vector-export",
+      "exportName": "group-fitness.svg",
+      "damPath": "/content/dam/goodlife/icons/group-fitness.svg",
+      "usedInBlock": "feature-grid",
+      "fieldName": "icon",
+      "altText": "Group fitness icon"
+    },
+    {
+      "figmaNode": "Feature - Recovery Icon",
+      "figmaRef": "vector-export",
+      "exportName": "recovery.svg",
+      "damPath": "/content/dam/goodlife/icons/recovery.svg",
+      "usedInBlock": "feature-grid",
+      "fieldName": "icon",
+      "altText": "Recovery icon"
+    },
+    {
+      "figmaNode": "Feature - Equipment Icon",
+      "figmaRef": "vector-export",
+      "exportName": "equipment.svg",
+      "damPath": "/content/dam/goodlife/icons/equipment.svg",
+      "usedInBlock": "feature-grid",
+      "fieldName": "icon",
+      "altText": "Equipment icon"
+    }
+  ],
+  "exportInstructions": "Export from Figma: Images at 2x PNG/JPG, logos/icons as SVG. Upload to AEM DAM under /content/dam/goodlife/ preserving the folder structure (programs/, badges/, icons/, logos/)."
+}

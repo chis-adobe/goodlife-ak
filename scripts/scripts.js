@@ -16,6 +16,7 @@ const linkBlocks = [
   { fragment: '/fragments/' },
   { schedule: '/schedules/' },
   { youtube: 'https://www.youtube' },
+  { fragment: '/content/fragments/' },
 ];
 
 // Blocks with self-managed styles

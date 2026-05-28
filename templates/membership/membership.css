@@ -1,0 +1,59 @@
+/* Membership template — dark theme override for page-level sections */
+body.membership-template {
+  background-color: var(--surface-page);
+}
+
+body.membership-template main {
+  .section {
+    padding: var(--section-padding-y) 0;
+
+    &.full-width {
+      padding-left: 0;
+      padding-right: 0;
+
+      > .default-content {
+        max-width: var(--content-max-width);
+        margin: 0 auto;
+        padding: 0 var(--space-lg);
+      }
+
+      > .block-content {
+        max-width: 100%;
+      }
+    }
+
+    &.dark {
+      background-color: var(--surface-secondary);
+      color: var(--color-white);
+
+      h2,
+      h3 {
+        color: var(--color-white);
+      }
+
+      p {
+        color: var(--color-white);
+        opacity: 0.9;
+      }
+
+      > .default-content {
+        text-align: center;
+
+        > h2 {
+          font-family: var(--heading-font);
+          font-size: clamp(48px, 6vw, var(--font-size-display));
+          font-weight: var(--font-weight-black);
+          text-transform: uppercase;
+        }
+
+        > p {
+          font-family: var(--heading-font);
+          font-size: var(--font-size-body-lg);
+          max-width: 750px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+    }
+  }
+}

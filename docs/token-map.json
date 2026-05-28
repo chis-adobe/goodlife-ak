@@ -1,0 +1,80 @@
+{
+  "description": "Token Map — Figma design values mapped to CSS custom properties",
+  "typography": {
+    "fontFamilies": {
+      "Roobert (headings)": "--heading-font / --font-family-heading",
+      "Proxima Nova (body)": "--body-font / --font-family-body"
+    },
+    "fontSizes": {
+      "80px (display/h1)": "--font-size-display",
+      "56px (section titles)": "--font-size-title",
+      "40px (h2 pricing)": "--font-size-h2",
+      "24px (h3 accordion)": "--font-size-h3",
+      "22px (body large)": "--font-size-body-lg",
+      "20px (body medium)": "--font-size-body-md",
+      "16px (body)": "--font-size-body",
+      "14px (body small/nav)": "--font-size-body-sm",
+      "12px (caption/footer)": "--font-size-caption"
+    },
+    "fontWeights": {
+      "900 (Black - display headings)": "--font-weight-black",
+      "700 (Bold - h2/h3/nav/CTA)": "--font-weight-bold",
+      "600 (Semibold - club name)": "--font-weight-semibold",
+      "400 (Regular - body text)": "--font-weight-regular"
+    },
+    "lineHeights": {
+      "1.1 (tight - display headings)": "--line-height-tight",
+      "1.2 (snug - section headers)": "--line-height-snug",
+      "1.4 (normal - body text)": "--line-height-normal",
+      "1.6 (relaxed - paragraphs)": "--line-height-relaxed"
+    }
+  },
+  "colors": {
+    "surfaces": {
+      "#000000 (page background)": "--surface-page / --color-black",
+      "#1b1c1f (primary surface - sections)": "--surface-primary / --color-gray-950",
+      "#222324 (secondary surface - everything else)": "--surface-secondary / --color-gray-850",
+      "#f8f9fb (elevated - feature text cards)": "--surface-elevated / --color-gray-50",
+      "#ed002e (nav bar)": "--surface-nav / --color-red-600",
+      "#1e1f22 (sub-header)": "--surface-sub-header / --color-gray-900"
+    },
+    "text": {
+      "#ffffff (primary text on dark)": "--text-primary / --color-white",
+      "#2c2c2c (secondary text on light)": "--text-secondary / --color-gray-800",
+      "#666666 (muted/inactive accordion)": "--text-muted / --color-gray-600"
+    },
+    "brand": {
+      "#ed002e (primary red - nav/CTAs)": "--brand-primary / --color-red-600",
+      "#264bff (gradient start - pricing card)": "--brand-accent-start / --color-blue-600",
+      "#a100ff (gradient end - pricing card)": "--brand-accent-end / --color-purple-600"
+    },
+    "interactive": {
+      "#ed002e (primary button bg)": "--interactive-primary",
+      "#d40028 (primary button hover)": "--interactive-primary-hover",
+      "#ffffff (secondary button bg)": "--interactive-secondary"
+    }
+  },
+  "spacing": {
+    "4px": "--space-xs",
+    "8px": "--space-sm",
+    "16px": "--space-md",
+    "24px": "--space-lg",
+    "32px": "--space-xl",
+    "48px": "--space-2xl",
+    "64px": "--space-3xl",
+    "80px": "--space-4xl",
+    "96px (section padding)": "--space-5xl / --section-padding-y"
+  },
+  "layout": {
+    "1200px (max content width)": "--content-max-width",
+    "59px (main nav height)": "--nav-height",
+    "34px (sub-header height)": "--sub-header-height",
+    "93px (total header height)": "--header-height (computed)"
+  },
+  "radii": {
+    "4px (buttons)": "--radius-sm",
+    "8px (cards)": "--radius-md",
+    "12px (feature images)": "--radius-lg",
+    "16px (pricing card)": "--radius-xl"
+  }
+}

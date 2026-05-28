@@ -1,0 +1,109 @@
+:root {
+  /* === PRIMITIVE TOKENS (Level 1) — Raw Figma values === */
+
+  /* Colors - Neutrals */
+  --color-black: #000;
+  --color-gray-950: #1b1c1f;
+  --color-gray-900: #1e1f22;
+  --color-gray-850: #222324;
+  --color-gray-800: #2c2c2c;
+  --color-gray-600: #666;
+  --color-gray-200: #d9d9d9;
+  --color-gray-50: #f8f9fb;
+  --color-white: #fff;
+
+  /* Colors - Brand */
+  --color-red-600: #ed002e;
+  --color-blue-600: #264bff;
+  --color-purple-600: #a100ff;
+
+  /* Typography - Font Families */
+  --font-family-heading: "Roobert", "Trebuchet MS", sans-serif;
+  --font-family-body: "Proxima Nova", "Trebuchet MS", sans-serif;
+
+  /* Typography - Font Sizes */
+  --font-size-display: 80px;
+  --font-size-title: 56px;
+  --font-size-h2: 40px;
+  --font-size-h3: 24px;
+  --font-size-body-lg: 22px;
+  --font-size-body-md: 20px;
+  --font-size-body: 16px;
+  --font-size-body-sm: 14px;
+  --font-size-caption: 12px;
+
+  /* Typography - Font Weights */
+  --font-weight-black: 900;
+  --font-weight-bold: 700;
+  --font-weight-semibold: 600;
+  --font-weight-regular: 400;
+
+  /* Typography - Line Heights */
+  --line-height-tight: 1.1;
+  --line-height-snug: 1.2;
+  --line-height-normal: 1.4;
+  --line-height-relaxed: 1.6;
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+  --space-4xl: 80px;
+  --space-5xl: 96px;
+
+  /* Radii */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgb(0 0 0 / 12%);
+  --shadow-md: 0 4px 12px rgb(0 0 0 / 15%);
+
+  /* Layout */
+  --content-max-width: 1200px;
+  --nav-height: 59px;
+  --sub-header-height: 34px;
+
+  /* === SEMANTIC TOKENS (Level 2) — Intent-based === */
+
+  /* Surface Colors */
+  --surface-page: var(--color-black);
+  --surface-primary: var(--color-gray-950);
+  --surface-secondary: var(--color-gray-850);
+  --surface-elevated: var(--color-gray-50);
+  --surface-nav: var(--color-red-600);
+  --surface-sub-header: var(--color-gray-900);
+
+  /* Text Colors */
+  --text-primary: var(--color-white);
+  --text-secondary: var(--color-gray-800);
+  --text-muted: var(--color-gray-600);
+  --text-on-surface: var(--color-white);
+  --text-on-elevated: var(--color-gray-950);
+
+  /* Brand Colors */
+  --brand-primary: var(--color-red-600);
+  --brand-accent-start: var(--color-blue-600);
+  --brand-accent-end: var(--color-purple-600);
+
+  /* Interactive Colors */
+  --interactive-primary: var(--color-red-600);
+  --interactive-primary-hover: #d40028;
+  --interactive-secondary: var(--color-white);
+  --interactive-link: var(--color-white);
+
+  /* Typography Semantic */
+  --heading-font: var(--font-family-heading);
+  --body-font: var(--font-family-body);
+
+  /* Section Spacing */
+  --section-padding-y: var(--space-5xl);
+  --block-gap: var(--space-3xl);
+}
