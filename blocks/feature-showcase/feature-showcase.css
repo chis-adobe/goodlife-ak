@@ -39,10 +39,9 @@
   }
 
   .showcase-text {
-    background-color: var(--surface-elevated);
-    border-radius: var(--radius-lg);
-    padding: var(--space-2xl) var(--space-xl);
-    color: var(--text-on-elevated);
+    background-color: transparent;
+    padding: var(--space-2xl) 0;
+    color: var(--color-white);
 
     h2 {
       font-family: var(--heading-font);
@@ -50,78 +49,44 @@
       font-weight: var(--font-weight-bold);
       text-transform: uppercase;
       line-height: var(--line-height-tight);
-      color: var(--color-gray-950);
+      color: var(--color-white);
       margin: 0 0 var(--space-md);
     }
 
-    > p {
+    > p:nth-child(2) {
       font-family: var(--body-font);
       font-size: var(--font-size-body-md);
       line-height: var(--line-height-normal);
-      color: var(--color-gray-800);
+      color: var(--color-white);
       margin: 0 0 var(--space-xl);
     }
-  }
 
-  /* Accordion styles */
-  .accordion-wrapper {
-    border-left: 3px solid var(--color-gray-200);
-  }
-
-  .accordion-item {
-    padding-left: var(--space-lg);
-    margin-bottom: var(--space-md);
-    position: relative;
-
-    &::before {
-      content: '';
-      position: absolute;
-      left: -3px;
-      top: 0;
-      bottom: 0;
-      width: 3px;
-      background-color: transparent;
-      transition: background-color 0.2s;
-    }
-
-    &.is-open::before {
-      background-color: var(--color-gray-950);
-    }
-  }
-
-  .accordion-heading {
-    font-family: var(--heading-font);
-    font-size: var(--font-size-h3);
-    font-weight: var(--font-weight-bold);
-    text-transform: uppercase;
-    color: var(--color-gray-950);
-    cursor: pointer;
-    margin: 0;
-    padding: var(--space-sm) 0;
-    transition: color 0.2s;
-
-    .accordion-item:not(.is-open) & {
+    > p:nth-child(n+3) {
+      font-family: var(--heading-font);
+      font-size: var(--font-size-h3);
+      font-weight: var(--font-weight-bold);
+      text-transform: uppercase;
       color: var(--color-gray-600);
-    }
-  }
-
-  .accordion-content {
-    overflow: hidden;
-    max-height: 0;
-    opacity: 0;
-    transition: max-height 0.3s ease, opacity 0.3s ease;
-
-    .is-open & {
-      max-height: 300px;
-      opacity: 1;
+      margin: 0;
+      padding: var(--space-sm) 0 var(--space-sm) var(--space-lg);
+      border-left: 3px solid var(--color-gray-600);
     }
 
-    p {
+    > p:nth-child(3) {
+      color: var(--color-white);
+      border-left-color: var(--color-white);
+    }
+
+    > p:nth-child(4) {
       font-family: var(--body-font);
       font-size: var(--font-size-body-md);
-      line-height: var(--line-height-normal);
-      color: var(--color-gray-800);
-      margin: var(--space-sm) 0 0;
+      font-weight: var(--font-weight-regular);
+      text-transform: none;
+      color: var(--color-white);
+      opacity: 0.9;
+      border-left: none;
+      padding-left: calc(var(--space-lg) + 3px);
+      margin-bottom: var(--space-md);
     }
   }
 }

@@ -1,58 +1,50 @@
 .pricing-card {
-  background: linear-gradient(135deg, var(--brand-accent-start), var(--brand-accent-end));
+  background-color: var(--color-white);
   border-radius: var(--radius-xl);
   padding: var(--space-2xl);
   max-width: 720px;
   margin: 0 auto;
-  color: var(--color-white);
+  color: var(--color-gray-950);
 
-  .pricing-card-header {
-    margin-bottom: var(--space-md);
-
-    .pricing-plan-name {
-      font-family: var(--heading-font);
-      font-size: var(--font-size-h2);
-      font-weight: var(--font-weight-bold);
-      text-transform: uppercase;
-      margin: 0;
+  > div {
+    &:first-child {
+      margin-bottom: var(--space-md);
     }
   }
 
-  .pricing-card-body {
-    margin-bottom: var(--space-xl);
+  h3 {
+    font-family: var(--heading-font);
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-bold);
+    text-transform: uppercase;
+    color: var(--color-gray-950);
+    margin: 0 0 var(--space-md);
+  }
 
-    p {
-      font-family: var(--body-font);
-      font-size: var(--font-size-body);
-      line-height: var(--line-height-normal);
-      margin: 0 0 var(--space-md);
-    }
+  p {
+    font-family: var(--body-font);
+    font-size: var(--font-size-body);
+    line-height: var(--line-height-normal);
+    color: var(--color-gray-800);
+    margin: 0 0 var(--space-md);
+  }
 
-    .pricing-amount {
-      font-family: var(--heading-font);
-      font-size: var(--font-size-display);
+  p:has(strong:first-child) {
+    font-family: var(--heading-font);
+    font-size: var(--font-size-display);
+    font-weight: var(--font-weight-regular);
+    line-height: 1;
+    color: var(--color-gray-950);
+    margin: var(--space-lg) 0;
+
+    strong {
       font-weight: var(--font-weight-regular);
-      line-height: 1;
-      margin: var(--space-md) 0;
-      display: flex;
-      align-items: baseline;
-      gap: 4px;
-
-      small {
-        font-size: var(--font-size-body-md);
-      }
-
-      span {
-        font-size: var(--font-size-body-sm);
-        font-family: var(--body-font);
-        font-weight: var(--font-weight-regular);
-        opacity: 0.85;
-        margin-left: var(--space-sm);
-      }
     }
   }
 
-  .pricing-card-cta {
+  p:has(a strong) {
+    margin-top: var(--space-xl);
+
     a {
       display: block;
       width: 100%;
@@ -74,15 +66,9 @@
     }
   }
 
-  .pricing-card-disclaimer {
+  p:last-child {
+    font-size: var(--font-size-caption);
+    color: var(--color-gray-600);
     margin-top: var(--space-lg);
-
-    p {
-      font-family: var(--body-font);
-      font-size: var(--font-size-caption);
-      line-height: var(--line-height-normal);
-      opacity: 0.7;
-      margin: 0;
-    }
   }
 }

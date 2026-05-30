@@ -1,6 +1,6 @@
 .feature-grid {
   background-color: var(--surface-secondary);
-  padding: var(--section-padding-y) var(--space-lg);
+  padding: var(--space-2xl) var(--space-lg);
   color: var(--color-white);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -10,8 +10,10 @@
 
   .feature-grid-item {
     display: flex;
-    gap: var(--space-lg);
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: var(--space-md);
   }
 
   .feature-grid-icon {
@@ -30,6 +32,8 @@
   }
 
   .feature-grid-content {
+    text-align: center;
+
     h3,
     h4,
     h5 {
@@ -46,7 +50,6 @@
       font-size: var(--font-size-body);
       line-height: var(--line-height-normal);
       color: var(--color-white);
-      opacity: 0.85;
       margin: 0;
     }
   }
