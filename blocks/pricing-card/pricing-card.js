@@ -11,7 +11,6 @@ export default function init(el) {
 
   if (rows[2]) {
     rows[2].classList.add('pricing-card-price');
-    const priceText = rows[2].textContent.trim();
     const cols = [...rows[2].children];
     if (cols.length >= 2) {
       const wholeAmount = cols[0].textContent.trim();
