@@ -37,7 +37,7 @@
 
     .price-display {
       display: flex;
-      align-items: baseline;
+      align-items: flex-start;
       justify-content: center;
       gap: 2px;
     }
@@ -69,4 +69,13 @@
       margin: 0;
     }
   }
+}
+
+/* CTA that follows pricing card should be inside the white area */
+.pricing-card + .cta {
+  background-color: var(--color-white);
+  border-radius: 0 0 var(--radius-xl) var(--radius-xl);
+  max-width: 720px;
+  margin: -24px auto 0;
+  padding: 0 var(--space-2xl) var(--space-2xl);
 }
