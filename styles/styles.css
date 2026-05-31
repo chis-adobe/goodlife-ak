@@ -168,10 +168,16 @@ a {
 /* sections */
 .section {
   display: block;
+  color: var(--color-white);
 
   > .default-content {
     max-width: var(--grid-container-width);
     margin: 0 auto;
+    color: var(--color-white);
+  }
+
+  h1, h2, h3, h4, h5, h6, p {
+    color: inherit;
   }
 }
 

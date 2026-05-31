@@ -122,8 +122,9 @@ header {
 
     img,
     svg {
-      width: var(--logo-width);
+      width: auto;
       height: var(--logo-height);
+      max-height: 100%;
     }
   }
 

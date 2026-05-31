@@ -1,11 +1,8 @@
 .club-selector {
-  background-color: var(--surface-primary);
-  border: 1px solid var(--color-gray-600);
-  border-radius: var(--radius-lg);
-  padding: var(--space-xl);
   max-width: 720px;
   margin: 0 auto;
   color: var(--color-white);
+  text-align: center;
 
   .club-selector-header {
     margin-bottom: var(--space-lg);
@@ -34,14 +31,22 @@
     display: flex;
     align-items: center;
     gap: var(--space-md);
-    padding: var(--space-md);
-    background-color: var(--surface-secondary);
+    padding: var(--space-lg);
+    background-color: var(--color-white);
     border-radius: var(--radius-md);
     margin-bottom: var(--space-md);
+    color: var(--color-gray-950);
+    text-align: left;
+    position: relative;
 
-    .icon {
+    &::before {
+      content: '';
+      display: block;
       width: 20px;
       height: 27px;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 32' fill='%23a100ff'%3E%3Cpath d='M12 0C5.4 0 0 5.4 0 12c0 9 12 20 12 20s12-11 12-20c0-6.6-5.4-12-12-12zm0 16c-2.2 0-4-1.8-4-4s1.8-4 4-4 4 1.8 4 4-1.8 4-4 4z'/%3E%3C/svg%3E");
+      background-size: contain;
+      background-repeat: no-repeat;
       flex-shrink: 0;
     }
 
@@ -51,15 +56,29 @@
       font-size: var(--font-size-body);
       font-weight: var(--font-weight-semibold);
       text-transform: none;
+      color: var(--color-gray-950);
       margin: 0;
     }
 
     p {
       font-family: var(--body-font);
       font-size: var(--font-size-body-sm);
-      color: var(--color-white);
-      opacity: 0.7;
+      color: var(--color-gray-600);
       margin: var(--space-xs) 0 0;
+    }
+
+    a {
+      position: absolute;
+      top: var(--space-md);
+      right: var(--space-lg);
+      font-family: var(--body-font);
+      font-size: var(--font-size-body-sm);
+      color: var(--color-blue-600);
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 
@@ -70,7 +89,6 @@
       font-weight: var(--font-weight-semibold);
       color: var(--color-white);
       text-decoration: underline;
-      cursor: pointer;
 
       &:hover {
         opacity: 0.8;
