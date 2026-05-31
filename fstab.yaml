@@ -1,2 +1,5 @@
 mountpoints:
   /: https://content.da.live/chis-adobe/goodlife-ak/
+
+assets:
+  author: https://author-p130746-e1275972.adobeaemcloud.com
