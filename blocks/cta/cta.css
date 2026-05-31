@@ -3,6 +3,10 @@
   justify-content: center;
   padding: var(--space-lg) 0;
 
+  > div > div:last-child:not(.cta-content) {
+    display: none;
+  }
+
   .cta-content {
     display: flex;
     justify-content: center;
