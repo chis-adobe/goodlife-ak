@@ -1,17 +1,16 @@
 export default function init(el) {
   const rows = [...el.querySelectorAll(':scope > div')];
-  const imageRow = rows[0];
-  const badgeRow = rows[1];
 
-  if (imageRow) {
-    imageRow.classList.add('amenity-images');
-    const cols = [...imageRow.children];
-    cols.forEach((col) => col.classList.add('amenity-image-col'));
-  }
+  rows.forEach((row, idx) => {
+    row.classList.add('amenity-item');
+    if (idx % 2 === 0) row.classList.add('amenity-item-tall');
 
-  if (badgeRow) {
-    badgeRow.classList.add('amenity-badges');
-    const badges = [...badgeRow.children];
-    badges.forEach((badge) => badge.classList.add('amenity-badge'));
-  }
+    const cols = [...row.children];
+    if (cols.length >= 2) {
+      cols[0].classList.add('amenity-badge');
+      cols[1].classList.add('amenity-image');
+    } else if (cols.length === 1) {
+      cols[0].classList.add('amenity-image');
+    }
+  });
 }
