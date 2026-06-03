@@ -1,5 +1,5 @@
 .amenity-showcase {
-  background-color: var(--surface-primary);
+  background-color: transparent;
   padding: 0 var(--space-lg) var(--space-3xl);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -24,6 +24,8 @@
     left: 50%;
     transform: translateX(-50%);
     z-index: 2;
+    display: flex;
+    align-items: flex-start;
 
     picture {
       display: block;
