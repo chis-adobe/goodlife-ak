@@ -1,0 +1,193 @@
+.workout-tracker {
+  font-family: system-ui, -apple-system, sans-serif;
+  max-width: 520px;
+  background: #111;
+  color: #f0f0f0;
+  border-radius: 12px;
+  padding: 18px;
+  box-sizing: border-box;
+}
+
+/* Header */
+.workout-tracker .wt-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.workout-tracker .wt-logo {
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  color: #00b140;
+  text-transform: uppercase;
+}
+
+.workout-tracker .wt-user {
+  font-size: 0.72rem;
+  color: #888;
+}
+
+/* Section labels */
+.workout-tracker .wt-section-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #888;
+  margin-bottom: 8px;
+}
+
+/* Last workout */
+.workout-tracker .wt-last-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 6px;
+}
+
+.workout-tracker .wt-ex-name {
+  font-size: 0.82rem;
+  font-weight: 700;
+  min-width: 100px;
+}
+
+.workout-tracker .wt-set-pill {
+  font-size: 0.75rem;
+  background: #1e1e1e;
+  border: 1px solid #2e2e2e;
+  border-radius: 20px;
+  padding: 2px 9px;
+  color: #00b140;
+  font-weight: 600;
+}
+
+.workout-tracker .wt-empty {
+  font-size: 0.82rem;
+  color: #888;
+  font-style: italic;
+}
+
+/* Divider */
+.workout-tracker .wt-divider {
+  border: none;
+  border-top: 1px solid #2e2e2e;
+  margin: 14px 0;
+}
+
+/* Set items */
+.workout-tracker .wt-set-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #1e1e1e;
+  border: 1px solid #2e2e2e;
+  border-radius: 7px;
+  padding: 8px 10px;
+  margin-bottom: 5px;
+}
+
+.workout-tracker .wt-set-name {
+  font-size: 0.85rem;
+  font-weight: 600;
+  display: block;
+}
+
+.workout-tracker .wt-set-detail {
+  font-size: 0.75rem;
+  color: #888;
+}
+
+.workout-tracker .wt-remove {
+  background: transparent;
+  border: none;
+  color: #ff5555;
+  font-size: 0.85rem;
+  cursor: pointer;
+  padding: 0 2px;
+}
+
+/* Form */
+.workout-tracker .wt-form {
+  background: #1e1e1e;
+  border: 1px solid #2e2e2e;
+  border-radius: 8px;
+  padding: 11px;
+  margin-bottom: 8px;
+}
+
+.workout-tracker .wt-row2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.workout-tracker .wt-select,
+.workout-tracker .wt-input {
+  width: 100%;
+  padding: 8px 10px;
+  background: #111;
+  border: 1px solid #2e2e2e;
+  border-radius: 6px;
+  color: #f0f0f0;
+  font-size: 0.85rem;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.workout-tracker .wt-form .wt-select { margin-bottom: 8px; }
+.workout-tracker .wt-select:focus,
+.workout-tracker .wt-input:focus { border-color: #00b140; }
+.workout-tracker .wt-select option { background: #1e1e1e; }
+
+/* Buttons */
+.workout-tracker .wt-btn {
+  width: 100%;
+  padding: 9px 14px;
+  border: none;
+  border-radius: 7px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+}
+
+.workout-tracker .wt-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.workout-tracker .wt-btn-primary { background: #00b140; color: #fff; }
+.workout-tracker .wt-btn-outline { background: transparent; border: 1px solid #2e2e2e; color: #f0f0f0; }
+
+/* Success state */
+.workout-tracker .wt-success {
+  text-align: center;
+  padding: 24px 0;
+}
+
+.workout-tracker .wt-success-icon {
+  font-size: 2rem;
+  color: #00b140;
+  margin-bottom: 10px;
+}
+
+.workout-tracker .wt-success-msg {
+  font-size: 0.88rem;
+  color: #aaa;
+}
+
+/* Email prompt (standalone) */
+.workout-tracker .wt-email-prompt {
+  padding: 8px 0;
+}
+
+.workout-tracker .wt-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 6px 0 12px;
+}
+
+.workout-tracker .wt-email-prompt .wt-input {
+  margin-bottom: 8px;
+}
