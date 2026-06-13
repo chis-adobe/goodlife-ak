@@ -109,6 +109,27 @@
       ]
     },
     {
+      "title": "Fitness",
+      "id": "fitness",
+      "components": [
+        {
+          "title": "Workout Tracker",
+          "id": "workout-tracker",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block",
+                "template": {
+                  "name": "Workout Tracker",
+                  "model": "workout-tracker"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
       "title": "Layout",
       "id": "layout",
       "components": [

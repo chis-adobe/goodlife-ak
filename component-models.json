@@ -312,6 +312,10 @@
       ]
     },
     {
+      "id": "workout-tracker",
+      "fields": []
+    },
+    {
       "id": "columns",
       "fields": [
         {
